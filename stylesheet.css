@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen {
+    body {
+        margin: 2em auto;
+        max-width: 900px;
+        color: rgb(55, 53, 47);
+        position: relative;
+    }
+}
+
+a:hover {
+  background-color: lightgrey;
+}
+
+p {
+	line-height: 24px;
+}
+
+li {
+    margin-bottom: 1em; /* Adjust the value as needed */
+}
+
+.icon {
+    display: inline-block;
+    max-width: 1.2em;
+    max-height: 1.2em;
+    text-decoration: none;
+    margin-right: 0.8em;
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+summary {
+	font-weight: 700;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.75em;
+}
+
+.block-color-gray_background {
+    background: rgba(241, 241, 239, 1);
+}
+
+.callout {
+    border-radius: 3px;
+    padding: 1rem;
+    display: flex;
+	line-height: 20px;
+}
+
+.sans {
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.code {
+    font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+code {
+    color: #eb5757;
+}
+
+.code {
+    padding: 1.5em 1em;
+}
+
+.code > code {
+    background: none;
+    padding: 0;
+    font-size: 100%;
+    color: inherit;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.spacer {
+    margin-bottom: 1em; /* Adjust as needed */
+}
+
+/* Tables */
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 40px;
+	min-width: 120px;
+	text-align: center;
+	background-color: #f6f6f6;
+}
+
+.simple-table th {
+	height: 40px;
+	min-width: 180px;
+	text-align: center;
+}
+
+.simple-table-header-color {
+	background: #CCCCCC;
+	color: black;
+	text-align: center;
+	color: #525252;
+}
+.simple-table-header {
+	font-weight: 500;
+		font-size:18px;
+}
